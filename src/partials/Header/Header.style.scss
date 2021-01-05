@@ -1,0 +1,39 @@
+.header {
+  &__container {
+    padding-top: 0.5rem;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    cursor: pointer;
+
+    &:last-child {
+      padding-left: 2rem;
+    }
+
+    &:hover {
+      color: grey;
+    }
+    &--primary {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    &--no-effect {
+      &:hover {
+        color: initial;
+      }
+    }
+  }
+}
+
+.links {
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+}

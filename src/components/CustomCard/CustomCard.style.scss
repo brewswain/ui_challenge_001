@@ -1,0 +1,10 @@
+.custom {
+  &__card {
+    height: 388.141px;
+    padding: 0.5rem;
+    &:first-child {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+}
